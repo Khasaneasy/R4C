@@ -3,8 +3,8 @@ import json
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 
-from .models import Robot
-from .validators import validate_robot_data
+from robots.models import Robot
+from robots.validators import validate_robot_data
 
 
 @csrf_exempt
